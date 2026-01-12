@@ -30,6 +30,7 @@ jobs:
           python3 << 'EOF'
           import tomli
           import json
+          import os
           
           with open('scenario.toml', 'rb') as f:
               data = tomli.load(f)
