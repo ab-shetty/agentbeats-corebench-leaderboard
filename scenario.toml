@@ -8,4 +8,7 @@ name = "agent"
 env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", NEBIUS_API_KEY = "${NEBIUS_API_KEY}"}
 
 [config]
-# Add your assessment config here
+domain = "corebench_hard"
+num_tasks = 3
+use_mcp = true
+mcp_server_command = ["uv", "run", "mcp", "run", "scenarios/corebench/mcp_server.py"]

@@ -1,4 +1,4 @@
-name: Run Scenario
+name: Run Scenario (Parallel)
 
 on:
   push:
@@ -6,12 +6,58 @@ on:
       - 'scenario.toml'
 
 jobs:
-  run:
+  # First job: determine how many tasks to run
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      num_tasks: ${{ steps.get_config.outputs.num_tasks }}
+      task_indices: ${{ steps.get_config.outputs.task_indices }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install tomli
+
+      - name: Get number of tasks from scenario.toml
+        id: get_config
+        run: |
+          python3 << 'EOF'
+          import tomli
+          import json
+          
+          with open('scenario.toml', 'rb') as f:
+              data = tomli.load(f)
+          
+          num_tasks = data.get('config', {}).get('num_tasks', 1)
+          task_indices = list(range(num_tasks))
+          
+          print(f"num_tasks={num_tasks}")
+          print(f"task_indices={json.dumps(task_indices)}")
+          
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"num_tasks={num_tasks}\n")
+              f.write(f"task_indices={json.dumps(task_indices)}\n")
+          EOF
+
+  # Second job: run each task in parallel
+  run-task:
+    needs: setup
     runs-on: ubuntu-latest
     if: github.event.repository.fork == true || github.ref != 'refs/heads/main'
     permissions:
       contents: write
       packages: read
+    
+    strategy:
+      fail-fast: false  # Continue running other tasks even if one fails
+      matrix:
+        task_index: ${{ fromJson(needs.setup.outputs.task_indices) }}
 
     steps:
       - name: Checkout
@@ -25,8 +71,28 @@ jobs:
       - name: Install dependencies
         run: pip install tomli tomli-w pyyaml requests
 
-      - name: Generate docker-compose.yml
+      - name: Generate docker-compose.yml for task ${{ matrix.task_index }}
         run: python generate_compose.py --scenario scenario.toml
+
+      - name: Modify scenario for single task
+        run: |
+          python3 << 'EOF'
+          import tomli
+          import tomli_w
+          
+          # Read the generated a2a-scenario.toml
+          with open('a2a-scenario.toml', 'rb') as f:
+              data = tomli.load(f)
+          
+          # Modify to run only one task
+          if 'config' in data:
+              data['config']['num_tasks'] = 1
+              data['config']['task_index'] = ${{ matrix.task_index }}
+          
+          # Write back
+          with open('a2a-scenario.toml', 'wb') as f:
+              tomli_w.dump(data, f)
+          EOF
 
       - name: Pull images
         run: |
@@ -68,11 +134,106 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GHCR_TOKEN }}
 
-      - name: Run assessment
+      - name: Run assessment for task ${{ matrix.task_index }}
         run: docker compose up --timestamps --no-color --exit-code-from agentbeats-client --abort-on-container-exit
 
       - name: Record provenance
         run: python record_provenance.py --compose docker-compose.yml --output output/provenance.json
+
+      - name: Upload task results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: task-${{ matrix.task_index }}-results
+          path: |
+            output/results.json
+            output/provenance.json
+          retention-days: 1
+
+      - name: Cleanup
+        if: always()
+        run: docker compose down -v || true
+
+  # Third job: aggregate results and submit
+  aggregate-and-submit:
+    needs: [setup, run-task]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install tomli tomli-w pyyaml requests
+
+      - name: Download all task results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: task-*-results
+          path: task-results
+
+      - name: Aggregate results
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          from pathlib import Path
+          
+          # Collect all results
+          all_results = []
+          all_provenances = []
+          
+          task_results_dir = Path('task-results')
+          for task_dir in sorted(task_results_dir.glob('task-*-results')):
+              results_file = task_dir / 'results.json'
+              provenance_file = task_dir / 'provenance.json'
+              
+              if results_file.exists():
+                  with open(results_file, 'r') as f:
+                      task_result = json.load(f)
+                      all_results.append(task_result)
+              
+              if provenance_file.exists():
+                  with open(provenance_file, 'r') as f:
+                      task_provenance = json.load(f)
+                      all_provenances.append(task_provenance)
+          
+          # Create aggregated results
+          # Assuming the results structure - adjust based on actual format
+          aggregated = {
+              "tasks": all_results,
+              "num_tasks": len(all_results)
+          }
+          
+          # Add summary statistics if applicable
+          if all_results and isinstance(all_results[0], dict):
+              # Try to extract scores/metrics
+              if 'score' in all_results[0]:
+                  scores = [r.get('score', 0) for r in all_results]
+                  aggregated['summary'] = {
+                      'avg_score': sum(scores) / len(scores) if scores else 0,
+                      'total_tasks': len(all_results)
+                  }
+          
+          # Write aggregated results
+          os.makedirs('output', exist_ok=True)
+          with open('output/results.json', 'w') as f:
+              json.dump(aggregated, f, indent=2)
+          
+          # Merge provenances (use the first one, they should all have same images)
+          if all_provenances:
+              with open('output/provenance.json', 'w') as f:
+                  json.dump(all_provenances[0], f, indent=2)
+          
+          print(f"Aggregated {len(all_results)} task results")
+          EOF
 
       - name: Generate submission metadata
         id: metadata
@@ -121,7 +282,3 @@ jobs:
           echo "[Click here to open a pull request](https://github.com/${{ steps.target.outputs.repo }}/compare/main...${{ github.repository_owner }}:${{ github.event.repository.name }}:${{ steps.metadata.outputs.branch_name }}?expand=1)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "⚠️ When creating the PR, UNCHECK 'Allow edits and access to secrets by maintainers' to protect your secrets." >> $GITHUB_STEP_SUMMARY
-
-      - name: Cleanup
-        if: always()
-        run: docker compose down -v || true
