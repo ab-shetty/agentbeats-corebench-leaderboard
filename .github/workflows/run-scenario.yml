@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scenario.toml'
+  workflow_dispatch:
 
 jobs:
   # First job: determine how many tasks to run
