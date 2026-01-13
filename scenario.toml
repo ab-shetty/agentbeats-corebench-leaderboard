@@ -12,3 +12,5 @@ domain = "corebench_hard"
 num_tasks = 3
 use_mcp = true
 mcp_server_command = ["uv", "run", "mcp", "run", "scenarios/corebench/mcp_server.py"]
+keep_traces = true 
+use_cache = false
