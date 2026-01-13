@@ -1,0 +1,104 @@
+{
+  "tasks": [
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 122.11589479446411,
+          "total_time": 129.56769251823425,
+          "used_mcp": true,
+          "task_results": {
+            "capsule-5507257": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 30.0,
+          "mean_tool_calls": 29.0,
+          "mean_time": 133.41828989982605,
+          "total_time": 141.84841418266296,
+          "used_mcp": true,
+          "task_results": {
+            "capsule-5507257": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 30.0,
+          "mean_tool_calls": 29.0,
+          "mean_time": 213.40509676933289,
+          "total_time": 221.46157598495483,
+          "used_mcp": true,
+          "task_results": {
+            "capsule-5507257": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "num_tasks": 3
+}
