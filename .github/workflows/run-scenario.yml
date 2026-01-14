@@ -9,7 +9,7 @@ on:
 jobs:
   # First job: determine how many tasks to run
   setup:
-    runs-on: runs-on,runner=1cpu-linux-x64,run-id=${{ github.run_id }}
+    runs-on: ubuntu-latest
     outputs:
       num_tasks: ${{ steps.get_config.outputs.num_tasks }}
       task_indices: ${{ steps.get_config.outputs.task_indices }}
@@ -161,7 +161,8 @@ jobs:
   # Third job: aggregate results and submit
   aggregate-and-submit:
     needs: [setup, run-task]
-    runs-on: runs-on,runner=1cpu-linux-x64,run-id=${{ github.run_id }}
+    if: always() && needs.setup.result == 'success'
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       packages: read
@@ -194,16 +195,34 @@ jobs:
           # Collect all results
           all_results = []
           all_provenances = []
+          failed_tasks = []
           
           task_results_dir = Path('task-results')
+          
+          # Check which tasks we expected
+          expected_tasks = set()
+          if task_results_dir.exists():
+              for task_dir in task_results_dir.glob('task-*-results'):
+                  # Extract task index from directory name
+                  task_name = task_dir.name
+                  if task_name.startswith('task-') and task_name.endswith('-results'):
+                      task_idx = task_name[5:-8]  # Extract number between 'task-' and '-results'
+                      expected_tasks.add(int(task_idx))
+          
+          # Collect results from successful tasks
           for task_dir in sorted(task_results_dir.glob('task-*-results')):
               results_file = task_dir / 'results.json'
               provenance_file = task_dir / 'provenance.json'
+              
+              task_idx = int(task_dir.name[5:-8])
               
               if results_file.exists():
                   with open(results_file, 'r') as f:
                       task_result = json.load(f)
                       all_results.append(task_result)
+              else:
+                  failed_tasks.append(task_idx)
+                  print(f"Warning: Task {task_idx} has no results.json")
               
               if provenance_file.exists():
                   with open(provenance_file, 'r') as f:
@@ -211,10 +230,12 @@ jobs:
                       all_provenances.append(task_provenance)
           
           # Create aggregated results
-          # Assuming the results structure - adjust based on actual format
           aggregated = {
               "tasks": all_results,
-              "num_tasks": len(all_results)
+              "num_tasks_total": len(expected_tasks),
+              "num_tasks_successful": len(all_results),
+              "num_tasks_failed": len(failed_tasks),
+              "failed_task_indices": sorted(failed_tasks)
           }
           
           # Add summary statistics if applicable
@@ -237,7 +258,9 @@ jobs:
               with open('output/provenance.json', 'w') as f:
                   json.dump(all_provenances[0], f, indent=2)
           
-          print(f"Aggregated {len(all_results)} task results")
+          print(f"Aggregated {len(all_results)} successful task results")
+          if failed_tasks:
+              print(f"Failed tasks: {failed_tasks}")
           EOF
 
       - name: Generate submission metadata
