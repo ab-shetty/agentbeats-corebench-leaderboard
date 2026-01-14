@@ -86,10 +86,12 @@ jobs:
           with open('a2a-scenario.toml', 'rb') as f:
               data = tomli.load(f)
           
-          # Modify to run only one task
+          # Modify to run only one task using task_index
           if 'config' in data:
-              data['config']['num_tasks'] = 1
+              # Don't set num_tasks - let task_index handle it
               data['config']['task_index'] = ${{ matrix.task_index }}
+              # Remove num_tasks if it exists
+              data['config'].pop('num_tasks', None)
           
           # Write back
           with open('a2a-scenario.toml', 'wb') as f:
