@@ -50,7 +50,8 @@ jobs:
   # Second job: run each task in parallel
   run-task:
     needs: setup
-    runs-on: runs-on,runner=1cpu-linux-x64,run-id=${{ github.run_id }}
+    # Dynamic runner selection: GPU tasks (0,1,2,3,7,9,19,22) use RunsOn g4dn.xlarge, others use GitHub runners
+    runs-on: ${{ contains(fromJson('[0,1,2,3,7,9,19,22]'), matrix.task_index) && format('runs-on,family=g4dn.xlarge,image=ubuntu22-gpu-x64,run-id={0}', github.run_id) || 'ubuntu-latest' }}
     if: github.event.repository.fork == true || github.ref != 'refs/heads/main'
     permissions:
       contents: write
