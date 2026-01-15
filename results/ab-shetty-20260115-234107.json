@@ -1,0 +1,2516 @@
+{
+  "tasks": [
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 89.80501437187195,
+          "total_time": 96.57343077659607,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-5507257": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 21.65362048149109,
+          "total_time": 30.719542026519775,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3449234": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 12.166342496871948,
+          "total_time": 19.733428716659546,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9052293": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 20.33664107322693,
+          "total_time": 27.989729404449463,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-2804717": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 234.14821910858154,
+          "total_time": 241.1824655532837,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3418007": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0012,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.8,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 16.810550212860107,
+          "total_time": 23.855538845062256,
+          "used_mcp": true,
+          "total_cost": 0.00124465,
+          "total_input_tokens": 22369,
+          "total_output_tokens": 631,
+          "model_used": "nebius/openai/gpt-oss-20b",
+          "task_results": {
+            "capsule-2414499": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.632102966308594,
+          "total_time": 18.893189907073975,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1624349": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.105529308319092,
+          "total_time": 18.02840495109558,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9832712": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 29.632333040237427,
+          "total_time": 38.82659864425659,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-2816027": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 15.46625566482544,
+          "total_time": 23.837263345718384,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3821950": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 15.215368270874023,
+          "total_time": 22.793537616729736,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9054015": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.723316669464111,
+          "total_time": 20.375976085662842,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3301293": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 101.40026330947876,
+          "total_time": 111.35490417480469,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9670283": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.112152576446533,
+          "total_time": 18.250115633010864,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1724988": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.20319414138794,
+          "total_time": 19.291677474975586,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4299879": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 22.988949298858643,
+          "total_time": 31.077877283096313,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-0851068": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 29.689684867858887,
+          "total_time": 36.752522468566895,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1394704": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 33.63263130187988,
+          "total_time": 40.30771231651306,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3262218": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 15.240732431411743,
+          "total_time": 21.714739561080933,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-0504157": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 17.28695821762085,
+          "total_time": 25.378421306610107,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3593259": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 13.142230987548828,
+          "total_time": 20.246113777160645,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9911222": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.693095207214355,
+          "total_time": 20.4148006439209,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3639589": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 37.44493651390076,
+          "total_time": 43.7059690952301,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1900704": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 22.898075580596924,
+          "total_time": 31.525655508041382,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8536428": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.638611793518066,
+          "total_time": 19.261930465698242,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-2345790": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 24.860296964645386,
+          "total_time": 32.86913251876831,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-7716865": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 138.9656674861908,
+          "total_time": 146.03950190544128,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9137200": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 14.859368801116943,
+          "total_time": 21.933345079421997,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4933686": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 12.625141143798828,
+          "total_time": 18.654118061065674,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9240688": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.004,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 31.200239658355713,
+          "total_time": 37.92784547805786,
+          "used_mcp": true,
+          "total_cost": 0.004009400000000001,
+          "total_input_tokens": 64084,
+          "total_output_tokens": 4026,
+          "model_used": "nebius/openai/gpt-oss-20b",
+          "task_results": {
+            "capsule-1175539": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 16.89014220237732,
+          "total_time": 24.07042360305786,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4728591": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.0,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.068662881851196,
+          "total_time": 18.885316371917725,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-0921079": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 13.467434406280518,
+          "total_time": 21.346665143966675,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4180912": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 5.0,
+          "mean_tool_calls": 4.0,
+          "mean_time": 20.077714204788208,
+          "total_time": 28.36434316635132,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-2708693": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.334492683410645,
+          "total_time": 19.271798372268677,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8807709": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 10.361814022064209,
+          "total_time": 18.03222680091858,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4252248": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 17.02308440208435,
+          "total_time": 22.760851860046387,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4671827": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.477324962615967,
+          "total_time": 20.512986660003662,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-7186268": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 28.5607647895813,
+          "total_time": 35.61422276496887,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3849634": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 24.959150075912476,
+          "total_time": 32.70937967300415,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-5136217": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.91504430770874,
+          "total_time": 18.95887565612793,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1796796": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 10.426271677017212,
+          "total_time": 18.9016752243042,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4977619": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 13.869483470916748,
+          "total_time": 19.774845600128174,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-7800694": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 14.051184892654419,
+          "total_time": 20.961555004119873,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-6800638": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 15.190231084823608,
+          "total_time": 23.10872530937195,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8412128": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 15.44810438156128,
+          "total_time": 23.075552940368652,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-6049678": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 13.3017578125,
+          "total_time": 21.61301064491272,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-6791130": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 11.340243816375732,
+          "total_time": 18.564542293548584,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-2538444": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.024754047393799,
+          "total_time": 19.452216625213623,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4020210": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 22.18833565711975,
+          "total_time": 31.615986108779907,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8514506": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 13.626378059387207,
+          "total_time": 21.68305206298828,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-5944340": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.668400764465332,
+          "total_time": 20.710909843444824,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9398054": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.960134983062744,
+          "total_time": 19.448848724365234,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-7655932": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 18.25164794921875,
+          "total_time": 24.591348886489868,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-0625246": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.127928972244263,
+          "total_time": 18.068785190582275,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8772484": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 15.601282119750977,
+          "total_time": 22.893263578414917,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3030670": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 13.237637996673584,
+          "total_time": 20.5203378200531,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9641396": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 14.106029748916626,
+          "total_time": 21.114190101623535,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-0732329": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 12.960291862487793,
+          "total_time": 20.439436674118042,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9294029": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0023,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 20.71688675880432,
+          "total_time": 28.59371566772461,
+          "used_mcp": true,
+          "total_cost": 0.0023365000000000005,
+          "total_input_tokens": 40034,
+          "total_output_tokens": 1674,
+          "model_used": "nebius/openai/gpt-oss-20b",
+          "task_results": {
+            "capsule-6295990": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 1.0,
+          "mean_tool_calls": 0.0,
+          "mean_time": 14.910511016845703,
+          "total_time": 21.52973699569702,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9477017": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 8.0,
+          "mean_tool_calls": 7.0,
+          "mean_time": 29.172024250030518,
+          "total_time": 38.42808938026428,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-0201673": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 15.954193115234375,
+          "total_time": 23.902921199798584,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3088870": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 11.979490280151367,
+          "total_time": 20.483717918395996,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-6003668": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 18.368542671203613,
+          "total_time": 25.725614547729492,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8234136": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 35.15511512756348,
+          "total_time": 43.087275981903076,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-9660931": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "num_tasks_total": 66,
+  "num_tasks_successful": 66,
+  "num_tasks_failed": 0,
+  "failed_task_indices": []
+}
