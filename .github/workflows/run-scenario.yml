@@ -293,10 +293,16 @@ jobs:
                           new_partial_success += mean_adherence
                       new_cost += cost
           
-          # Calculate scores
+          # Calculate scores as percentages
           total_score = round((tasks_passed + partial_success_score) / total_tasks * 100, 2) if total_tasks > 0 else 0
-          orig_score = orig_passed + orig_partial_success
-          new_score = new_passed + new_partial_success
+          
+          # Calculate orig_score (tasks 0-44)
+          orig_total = min(total_tasks, 45)  # Count of tasks in orig range
+          orig_score = round((orig_passed + orig_partial_success) / orig_total * 100, 2) if orig_total > 0 else 0
+          
+          # Calculate new_score (tasks 45-65)
+          new_total = max(0, min(total_tasks - 45, 21))  # Count of tasks in new range
+          new_score = round((new_passed + new_partial_success) / new_total * 100, 2) if new_total > 0 else 0
           
           # Round costs to 2 decimal places
           total_cost = round(total_cost, 2)
