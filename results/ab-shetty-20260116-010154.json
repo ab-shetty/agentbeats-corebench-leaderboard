@@ -1,0 +1,2516 @@
+{
+  "tasks": [
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0434,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.85,
+          "mean_steps": 34.0,
+          "mean_tool_calls": 33.0,
+          "mean_time": 406.3326392173767,
+          "total_time": 416.693941116333,
+          "used_mcp": true,
+          "total_cost": 0.043409500000000004,
+          "total_input_tokens": 419065,
+          "total_output_tokens": 5010,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-5507257": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.85
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 84.25561189651489,
+          "total_time": 93.86671209335327,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3449234": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0552,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 49.0,
+          "mean_tool_calls": 48.0,
+          "mean_time": 189.61555361747742,
+          "total_time": 199.17291045188904,
+          "used_mcp": true,
+          "total_cost": 0.0551754,
+          "total_input_tokens": 522567,
+          "total_output_tokens": 9729,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9052293": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0248,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.5,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 24.0,
+          "mean_tool_calls": 23.0,
+          "mean_time": 82.56942915916443,
+          "total_time": 91.85708165168762,
+          "used_mcp": true,
+          "total_cost": 0.0248475,
+          "total_input_tokens": 236415,
+          "total_output_tokens": 4020,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-2804717": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.07,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 31.0,
+          "mean_tool_calls": 30.0,
+          "mean_time": 345.42920756340027,
+          "total_time": 354.76106119155884,
+          "used_mcp": true,
+          "total_cost": 0.07001480000000002,
+          "total_input_tokens": 684056,
+          "total_output_tokens": 5364,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3418007": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0209,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 59.20370006561279,
+          "total_time": 68.46674990653992,
+          "used_mcp": true,
+          "total_cost": 0.020934000000000005,
+          "total_input_tokens": 202548,
+          "total_output_tokens": 2264,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-2414499": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0416,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 135.04003858566284,
+          "total_time": 144.48053288459778,
+          "used_mcp": true,
+          "total_cost": 0.0415994,
+          "total_input_tokens": 404858,
+          "total_output_tokens": 3712,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-1624349": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0401,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 29.0,
+          "mean_tool_calls": 28.0,
+          "mean_time": 111.09652590751648,
+          "total_time": 120.88280868530273,
+          "used_mcp": true,
+          "total_cost": 0.0400587,
+          "total_input_tokens": 384867,
+          "total_output_tokens": 5240,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9832712": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.017,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 85.2418122291565,
+          "total_time": 94.95456528663635,
+          "used_mcp": true,
+          "total_cost": 0.0169962,
+          "total_input_tokens": 158394,
+          "total_output_tokens": 3856,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-2816027": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0371,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 25.0,
+          "mean_tool_calls": 24.0,
+          "mean_time": 113.6636369228363,
+          "total_time": 125.43630003929138,
+          "used_mcp": true,
+          "total_cost": 0.0370957,
+          "total_input_tokens": 357934,
+          "total_output_tokens": 4341,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3821950": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0398,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 28.0,
+          "mean_tool_calls": 27.0,
+          "mean_time": 138.65113520622253,
+          "total_time": 148.03883028030396,
+          "used_mcp": true,
+          "total_cost": 0.03979630000000001,
+          "total_input_tokens": 379105,
+          "total_output_tokens": 6286,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9054015": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0734,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.3,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 52.0,
+          "mean_tool_calls": 51.0,
+          "mean_time": 351.2284619808197,
+          "total_time": 359.61189913749695,
+          "used_mcp": true,
+          "total_cost": 0.07341860000000001,
+          "total_input_tokens": 708332,
+          "total_output_tokens": 8618,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3301293": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.3,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.2914,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 89.0,
+          "mean_tool_calls": 88.0,
+          "mean_time": 1807.551010131836,
+          "total_time": 1816.5559878349304,
+          "used_mcp": true,
+          "total_cost": 0.2914233,
+          "total_input_tokens": 2872230,
+          "total_output_tokens": 14001,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9670283": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0291,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.5,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 27.0,
+          "mean_tool_calls": 26.0,
+          "mean_time": 104.35270190238953,
+          "total_time": 114.14068865776062,
+          "used_mcp": true,
+          "total_cost": 0.029140700000000002,
+          "total_input_tokens": 275831,
+          "total_output_tokens": 5192,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-1724988": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0856,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 53.0,
+          "mean_tool_calls": 52.0,
+          "mean_time": 175.96851515769958,
+          "total_time": 185.63153100013733,
+          "used_mcp": true,
+          "total_cost": 0.0855575,
+          "total_input_tokens": 828908,
+          "total_output_tokens": 8889,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4299879": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0749,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 47.0,
+          "mean_tool_calls": 46.0,
+          "mean_time": 519.8732800483704,
+          "total_time": 528.9876606464386,
+          "used_mcp": true,
+          "total_cost": 0.07488760000000001,
+          "total_input_tokens": 726052,
+          "total_output_tokens": 7608,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-0851068": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 38.0,
+          "mean_tool_calls": 37.0,
+          "mean_time": 167.08523392677307,
+          "total_time": 176.49790024757385,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1394704": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0296,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 23.0,
+          "mean_tool_calls": 22.0,
+          "mean_time": 104.47613668441772,
+          "total_time": 113.362069606781,
+          "used_mcp": true,
+          "total_cost": 0.0295696,
+          "total_input_tokens": 278818,
+          "total_output_tokens": 5626,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3262218": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0533,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 34.0,
+          "mean_tool_calls": 33.0,
+          "mean_time": 176.84933924674988,
+          "total_time": 184.39918065071106,
+          "used_mcp": true,
+          "total_cost": 0.0532571,
+          "total_input_tokens": 502061,
+          "total_output_tokens": 10170,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-0504157": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 45.0,
+          "mean_tool_calls": 44.0,
+          "mean_time": 242.43823194503784,
+          "total_time": 250.91425609588623,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3593259": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0165,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 22.0,
+          "mean_tool_calls": 21.0,
+          "mean_time": 87.40912699699402,
+          "total_time": 95.34290909767151,
+          "used_mcp": true,
+          "total_cost": 0.0164848,
+          "total_input_tokens": 151549,
+          "total_output_tokens": 4433,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9911222": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.2039,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 63.0,
+          "mean_tool_calls": 62.0,
+          "mean_time": 553.0114030838013,
+          "total_time": 559.5231599807739,
+          "used_mcp": true,
+          "total_cost": 0.2038558,
+          "total_input_tokens": 2008069,
+          "total_output_tokens": 10163,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3639589": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.227,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 48.0,
+          "mean_tool_calls": 47.0,
+          "mean_time": 195.0389130115509,
+          "total_time": 204.12253379821777,
+          "used_mcp": true,
+          "total_cost": 0.22699750000000002,
+          "total_input_tokens": 2251702,
+          "total_output_tokens": 6091,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-1900704": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0138,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 17.0,
+          "mean_tool_calls": 16.0,
+          "mean_time": 90.2377142906189,
+          "total_time": 101.32151007652283,
+          "used_mcp": true,
+          "total_cost": 0.0138107,
+          "total_input_tokens": 125447,
+          "total_output_tokens": 4220,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-8536428": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0227,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 54.829357862472534,
+          "total_time": 64.79885149002075,
+          "used_mcp": true,
+          "total_cost": 0.022709,
+          "total_input_tokens": 221072,
+          "total_output_tokens": 2006,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-2345790": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0283,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 29.0,
+          "mean_tool_calls": 28.0,
+          "mean_time": 138.16364765167236,
+          "total_time": 147.22023940086365,
+          "used_mcp": true,
+          "total_cost": 0.028258400000000003,
+          "total_input_tokens": 259841,
+          "total_output_tokens": 7581,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-7716865": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0607,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 30.0,
+          "mean_tool_calls": 29.0,
+          "mean_time": 421.43723320961,
+          "total_time": 433.1708221435547,
+          "used_mcp": true,
+          "total_cost": 0.0606825,
+          "total_input_tokens": 593781,
+          "total_output_tokens": 4348,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9137200": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0144,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 17.0,
+          "mean_tool_calls": 16.0,
+          "mean_time": 90.50092339515686,
+          "total_time": 101.10496115684509,
+          "used_mcp": true,
+          "total_cost": 0.014382200000000001,
+          "total_input_tokens": 131549,
+          "total_output_tokens": 4091,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4933686": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0177,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 57.604557514190674,
+          "total_time": 69.05851864814758,
+          "used_mcp": true,
+          "total_cost": 0.017676700000000004,
+          "total_input_tokens": 168778,
+          "total_output_tokens": 2663,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9240688": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.022,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 59.9752631187439,
+          "total_time": 69.3777379989624,
+          "used_mcp": true,
+          "total_cost": 0.022038800000000004,
+          "total_input_tokens": 211400,
+          "total_output_tokens": 2996,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-1175539": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0316,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 25.0,
+          "mean_tool_calls": 24.0,
+          "mean_time": 131.20349216461182,
+          "total_time": 143.31869387626648,
+          "used_mcp": true,
+          "total_cost": 0.0315867,
+          "total_input_tokens": 299352,
+          "total_output_tokens": 5505,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4728591": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0112,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 16.0,
+          "mean_tool_calls": 15.0,
+          "mean_time": 60.423423051834106,
+          "total_time": 69.31312847137451,
+          "used_mcp": true,
+          "total_cost": 0.011199900000000002,
+          "total_input_tokens": 103398,
+          "total_output_tokens": 2867,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-0921079": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0291,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 26.0,
+          "mean_tool_calls": 25.0,
+          "mean_time": 360.84356570243835,
+          "total_time": 369.63739013671875,
+          "used_mcp": true,
+          "total_cost": 0.029136000000000002,
+          "total_input_tokens": 270591,
+          "total_output_tokens": 6923,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4180912": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0432,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 16.0,
+          "mean_tool_calls": 15.0,
+          "mean_time": 107.71656012535095,
+          "total_time": 117.92224979400635,
+          "used_mcp": true,
+          "total_cost": 0.043164600000000004,
+          "total_input_tokens": 416418,
+          "total_output_tokens": 5076,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-2708693": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0911,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 53.0,
+          "mean_tool_calls": 52.0,
+          "mean_time": 1214.497505903244,
+          "total_time": 1221.8418505191803,
+          "used_mcp": true,
+          "total_cost": 0.09106610000000001,
+          "total_input_tokens": 885269,
+          "total_output_tokens": 8464,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-8807709": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0625,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.3,
+          "mean_steps": 41.0,
+          "mean_tool_calls": 40.0,
+          "mean_time": 141.6832435131073,
+          "total_time": 150.30756878852844,
+          "used_mcp": true,
+          "total_cost": 0.062454300000000004,
+          "total_input_tokens": 603168,
+          "total_output_tokens": 7125,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4252248": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 1.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0287,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 21.0,
+          "mean_tool_calls": 20.0,
+          "mean_time": 104.10485053062439,
+          "total_time": 113.34024500846863,
+          "used_mcp": true,
+          "total_cost": 0.0286748,
+          "total_input_tokens": 274940,
+          "total_output_tokens": 3936,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4671827": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0471,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 40.0,
+          "mean_tool_calls": 39.0,
+          "mean_time": 145.28975081443787,
+          "total_time": 157.711923122406,
+          "used_mcp": true,
+          "total_cost": 0.0470572,
+          "total_input_tokens": 449041,
+          "total_output_tokens": 7177,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-7186268": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0115,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.4,
+          "mean_steps": 17.0,
+          "mean_tool_calls": 16.0,
+          "mean_time": 89.73743224143982,
+          "total_time": 101.6379976272583,
+          "used_mcp": true,
+          "total_cost": 0.011535,
+          "total_input_tokens": 104544,
+          "total_output_tokens": 3602,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3849634": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 1.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0315,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 28.0,
+          "mean_tool_calls": 27.0,
+          "mean_time": 199.70508909225464,
+          "total_time": 211.55154728889465,
+          "used_mcp": true,
+          "total_cost": 0.0315418,
+          "total_input_tokens": 300406,
+          "total_output_tokens": 5004,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-5136217": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0071,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 10.0,
+          "mean_tool_calls": 9.0,
+          "mean_time": 36.93099784851074,
+          "total_time": 45.51851034164429,
+          "used_mcp": true,
+          "total_cost": 0.0070595,
+          "total_input_tokens": 66080,
+          "total_output_tokens": 1505,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-1796796": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.009,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 15.0,
+          "mean_tool_calls": 14.0,
+          "mean_time": 49.08111262321472,
+          "total_time": 58.48663687705994,
+          "used_mcp": true,
+          "total_cost": 0.0089859,
+          "total_input_tokens": 83604,
+          "total_output_tokens": 2085,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4977619": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0929,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 54.0,
+          "mean_tool_calls": 53.0,
+          "mean_time": 287.22703528404236,
+          "total_time": 296.5432825088501,
+          "used_mcp": true,
+          "total_cost": 0.09287680000000001,
+          "total_input_tokens": 895234,
+          "total_output_tokens": 11178,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-7800694": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0232,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 22.0,
+          "mean_tool_calls": 21.0,
+          "mean_time": 103.34239673614502,
+          "total_time": 113.65360569953918,
+          "used_mcp": true,
+          "total_cost": 0.023249200000000005,
+          "total_input_tokens": 216148,
+          "total_output_tokens": 5448,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-6800638": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0214,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 19.0,
+          "mean_tool_calls": 18.0,
+          "mean_time": 98.96187996864319,
+          "total_time": 109.16131901741028,
+          "used_mcp": true,
+          "total_cost": 0.021373500000000004,
+          "total_input_tokens": 204816,
+          "total_output_tokens": 2973,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-8412128": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0425,
+          "mean_accuracy": 0.6666666666666666,
+          "mean_written_accuracy": 0.6666666666666666,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 35.0,
+          "mean_tool_calls": 34.0,
+          "mean_time": 196.6490466594696,
+          "total_time": 207.6500256061554,
+          "used_mcp": true,
+          "total_cost": 0.042547400000000006,
+          "total_input_tokens": 392147,
+          "total_output_tokens": 11109,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-6049678": {
+              "success": false,
+              "accuracy": 0.6666666666666666,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0671,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 46.0,
+          "mean_tool_calls": 45.0,
+          "mean_time": 182.91740250587463,
+          "total_time": 195.55502343177795,
+          "used_mcp": true,
+          "total_cost": 0.0671331,
+          "total_input_tokens": 647376,
+          "total_output_tokens": 7985,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-6791130": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0424,
+          "mean_accuracy": 0.6666666666666666,
+          "mean_written_accuracy": 0.6666666666666666,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 33.0,
+          "mean_tool_calls": 32.0,
+          "mean_time": 128.92524528503418,
+          "total_time": 139.91873264312744,
+          "used_mcp": true,
+          "total_cost": 0.0423682,
+          "total_input_tokens": 405775,
+          "total_output_tokens": 5969,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-2538444": {
+              "success": false,
+              "accuracy": 0.6666666666666666,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.017,
+          "mean_accuracy": 0.6666666666666666,
+          "mean_written_accuracy": 0.6666666666666666,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 74.46992230415344,
+          "total_time": 84.32852411270142,
+          "used_mcp": true,
+          "total_cost": 0.0169945,
+          "total_input_tokens": 159661,
+          "total_output_tokens": 3428,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-4020210": {
+              "success": false,
+              "accuracy": 0.6666666666666666,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0143,
+          "mean_accuracy": 0.3333333333333333,
+          "mean_written_accuracy": 0.3333333333333333,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 15.0,
+          "mean_tool_calls": 14.0,
+          "mean_time": 61.2476909160614,
+          "total_time": 72.56311821937561,
+          "used_mcp": true,
+          "total_cost": 0.014311100000000002,
+          "total_input_tokens": 135260,
+          "total_output_tokens": 2617,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-8514506": {
+              "success": false,
+              "accuracy": 0.3333333333333333,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0347,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.5,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 31.0,
+          "mean_tool_calls": 30.0,
+          "mean_time": 89.56650996208191,
+          "total_time": 99.43857002258301,
+          "used_mcp": true,
+          "total_cost": 0.034734100000000004,
+          "total_input_tokens": 334990,
+          "total_output_tokens": 4117,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-5944340": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0245,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.5,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 24.0,
+          "mean_tool_calls": 23.0,
+          "mean_time": 81.06306171417236,
+          "total_time": 90.53903245925903,
+          "used_mcp": true,
+          "total_cost": 0.024511400000000003,
+          "total_input_tokens": 233240,
+          "total_output_tokens": 3958,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9398054": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0089,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 46.02097678184509,
+          "total_time": 54.79701900482178,
+          "used_mcp": true,
+          "total_cost": 0.0089023,
+          "total_input_tokens": 82561,
+          "total_output_tokens": 2154,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-7655932": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0344,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 31.0,
+          "mean_tool_calls": 30.0,
+          "mean_time": 95.62775754928589,
+          "total_time": 102.99003410339355,
+          "used_mcp": true,
+          "total_cost": 0.034445100000000006,
+          "total_input_tokens": 328737,
+          "total_output_tokens": 5238,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-0625246": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0718,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 46.0,
+          "mean_tool_calls": 45.0,
+          "mean_time": 177.35326075553894,
+          "total_time": 184.7470371723175,
+          "used_mcp": true,
+          "total_cost": 0.07182670000000001,
+          "total_input_tokens": 696610,
+          "total_output_tokens": 7219,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-8772484": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0144,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 16.0,
+          "mean_tool_calls": 15.0,
+          "mean_time": 58.19424510002136,
+          "total_time": 65.76065754890442,
+          "used_mcp": true,
+          "total_cost": 0.0143674,
+          "total_input_tokens": 134803,
+          "total_output_tokens": 2957,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-3030670": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0854,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 49.0,
+          "mean_tool_calls": 48.0,
+          "mean_time": 218.44950819015503,
+          "total_time": 227.19446635246277,
+          "used_mcp": true,
+          "total_cost": 0.08542110000000001,
+          "total_input_tokens": 831498,
+          "total_output_tokens": 7571,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9641396": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.3163,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 26.0,
+          "mean_tool_calls": 25.0,
+          "mean_time": 158.13704538345337,
+          "total_time": 166.13535356521606,
+          "used_mcp": true,
+          "total_cost": 0.316329,
+          "total_input_tokens": 3146409,
+          "total_output_tokens": 5627,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-0732329": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0292,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 26.0,
+          "mean_tool_calls": 25.0,
+          "mean_time": 94.28076457977295,
+          "total_time": 102.84118270874023,
+          "used_mcp": true,
+          "total_cost": 0.029199100000000002,
+          "total_input_tokens": 279643,
+          "total_output_tokens": 4116,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9294029": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0206,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.5,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 22.0,
+          "mean_tool_calls": 21.0,
+          "mean_time": 71.40994381904602,
+          "total_time": 79.85430979728699,
+          "used_mcp": true,
+          "total_cost": 0.0206436,
+          "total_input_tokens": 196668,
+          "total_output_tokens": 3256,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-6295990": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0406,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 32.0,
+          "mean_tool_calls": 31.0,
+          "mean_time": 183.2592852115631,
+          "total_time": 191.6071298122406,
+          "used_mcp": true,
+          "total_cost": 0.0406229,
+          "total_input_tokens": 378125,
+          "total_output_tokens": 9368,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9477017": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.009,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 14.0,
+          "mean_tool_calls": 13.0,
+          "mean_time": 66.5790786743164,
+          "total_time": 73.89158773422241,
+          "used_mcp": true,
+          "total_cost": 0.009039,
+          "total_input_tokens": 83733,
+          "total_output_tokens": 2219,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-0201673": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 29.0,
+          "mean_tool_calls": 28.0,
+          "mean_time": 116.75397539138794,
+          "total_time": 124.95733213424683,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3088870": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0167,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 102.19319868087769,
+          "total_time": 109.98403811454773,
+          "used_mcp": true,
+          "total_cost": 0.0166746,
+          "total_input_tokens": 159681,
+          "total_output_tokens": 2355,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-6003668": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0983,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 48.0,
+          "mean_tool_calls": 47.0,
+          "mean_time": 286.05546522140503,
+          "total_time": 294.0806632041931,
+          "used_mcp": true,
+          "total_cost": 0.09828860000000002,
+          "total_input_tokens": 958976,
+          "total_output_tokens": 7970,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-8234136": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0227,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 10.0,
+          "mean_tool_calls": 9.0,
+          "mean_time": 47.62528038024902,
+          "total_time": 56.867613792419434,
+          "used_mcp": true,
+          "total_cost": 0.0227106,
+          "total_input_tokens": 223140,
+          "total_output_tokens": 1322,
+          "model_used": "nebius/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "task_results": {
+            "capsule-9660931": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "num_tasks_total": 66,
+  "num_tasks_successful": 66,
+  "num_tasks_failed": 0,
+  "failed_task_indices": []
+}
