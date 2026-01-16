@@ -1,0 +1,2516 @@
+{
+  "tasks": [
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0237,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.6,
+          "mean_steps": 18.0,
+          "mean_tool_calls": 17.0,
+          "mean_time": 289.19808197021484,
+          "total_time": 296.4618639945984,
+          "used_mcp": true,
+          "total_cost": 0.023734799999999997,
+          "total_input_tokens": 122540,
+          "total_output_tokens": 8923,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-5507257": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 130.6708323955536,
+          "total_time": 140.22151231765747,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3449234": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0288,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 21.0,
+          "mean_tool_calls": 20.0,
+          "mean_time": 208.11929965019226,
+          "total_time": 215.5223696231842,
+          "used_mcp": true,
+          "total_cost": 0.028765049999999997,
+          "total_input_tokens": 146323,
+          "total_output_tokens": 11361,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9052293": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0135,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.5,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 8.0,
+          "mean_tool_calls": 7.0,
+          "mean_time": 116.42340183258057,
+          "total_time": 124.38145875930786,
+          "used_mcp": true,
+          "total_cost": 0.013453650000000001,
+          "total_input_tokens": 65767,
+          "total_output_tokens": 5981,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-2804717": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.2055,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 50.0,
+          "mean_tool_calls": 49.0,
+          "mean_time": 745.4879071712494,
+          "total_time": 753.0610566139221,
+          "used_mcp": true,
+          "total_cost": 0.2055285,
+          "total_input_tokens": 1257954,
+          "total_output_tokens": 28059,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3418007": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0047,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 86.11413145065308,
+          "total_time": 93.73170828819275,
+          "used_mcp": true,
+          "total_cost": 0.00471975,
+          "total_input_tokens": 16573,
+          "total_output_tokens": 3723,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-2414499": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0337,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 17.0,
+          "mean_tool_calls": 16.0,
+          "mean_time": 206.03669214248657,
+          "total_time": 213.6323323249817,
+          "used_mcp": true,
+          "total_cost": 0.0336804,
+          "total_input_tokens": 186512,
+          "total_output_tokens": 9506,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-1624349": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0304,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 17.0,
+          "mean_tool_calls": 16.0,
+          "mean_time": 191.47067046165466,
+          "total_time": 200.78493309020996,
+          "used_mcp": true,
+          "total_cost": 0.030418349999999997,
+          "total_input_tokens": 162377,
+          "total_output_tokens": 10103,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9832712": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0505,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 18.0,
+          "mean_tool_calls": 17.0,
+          "mean_time": 263.0149040222168,
+          "total_time": 269.94729018211365,
+          "used_mcp": true,
+          "total_cost": 0.0505467,
+          "total_input_tokens": 284114,
+          "total_output_tokens": 13216,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-2816027": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0031,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.2,
+          "mean_steps": 2.0,
+          "mean_tool_calls": 1.0,
+          "mean_time": 46.71052408218384,
+          "total_time": 63.50136995315552,
+          "used_mcp": true,
+          "total_cost": 0.0031081499999999996,
+          "total_input_tokens": 12989,
+          "total_output_tokens": 1933,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3821950": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0197,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 147.92761993408203,
+          "total_time": 155.62802839279175,
+          "used_mcp": true,
+          "total_cost": 0.019745699999999998,
+          "total_input_tokens": 101682,
+          "total_output_tokens": 7489,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9054015": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.1255,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 45.0,
+          "mean_tool_calls": 44.0,
+          "mean_time": 586.5822863578796,
+          "total_time": 593.8647060394287,
+          "used_mcp": true,
+          "total_cost": 0.12554595,
+          "total_input_tokens": 758973,
+          "total_output_tokens": 19500,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3301293": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0202,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 10.0,
+          "mean_tool_calls": 9.0,
+          "mean_time": 231.33369994163513,
+          "total_time": 241.30064821243286,
+          "used_mcp": true,
+          "total_cost": 0.02017095,
+          "total_input_tokens": 113373,
+          "total_output_tokens": 5275,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9670283": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0185,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.85,
+          "mean_steps": 9.0,
+          "mean_tool_calls": 8.0,
+          "mean_time": 114.66250658035278,
+          "total_time": 121.20183324813843,
+          "used_mcp": true,
+          "total_cost": 0.018470399999999998,
+          "total_input_tokens": 101216,
+          "total_output_tokens": 5480,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-1724988": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.85
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0077,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 97.82495188713074,
+          "total_time": 105.58362293243408,
+          "used_mcp": true,
+          "total_cost": 0.007697249999999999,
+          "total_input_tokens": 26963,
+          "total_output_tokens": 6088,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4299879": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0361,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 23.0,
+          "mean_tool_calls": 22.0,
+          "mean_time": 555.3423874378204,
+          "total_time": 563.1474642753601,
+          "used_mcp": true,
+          "total_cost": 0.0360876,
+          "total_input_tokens": 206724,
+          "total_output_tokens": 8465,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-0851068": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 10.0,
+          "mean_tool_calls": 9.0,
+          "mean_time": 129.72363233566284,
+          "total_time": 152.71642351150513,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-1394704": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0208,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 138.81976008415222,
+          "total_time": 147.182213306427,
+          "used_mcp": true,
+          "total_cost": 0.020784599999999997,
+          "total_input_tokens": 110260,
+          "total_output_tokens": 7076,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3262218": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0169,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 12.0,
+          "mean_tool_calls": 11.0,
+          "mean_time": 106.62924075126648,
+          "total_time": 114.21844625473022,
+          "used_mcp": true,
+          "total_cost": 0.016897799999999998,
+          "total_input_tokens": 91344,
+          "total_output_tokens": 5327,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-0504157": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.2234,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.85,
+          "mean_steps": 52.0,
+          "mean_tool_calls": 51.0,
+          "mean_time": 715.2151441574097,
+          "total_time": 722.3451781272888,
+          "used_mcp": true,
+          "total_cost": 0.22337549999999998,
+          "total_input_tokens": 1369382,
+          "total_output_tokens": 29947,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3593259": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.85
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.052,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 22.0,
+          "mean_tool_calls": 21.0,
+          "mean_time": 263.9881730079651,
+          "total_time": 270.7267370223999,
+          "used_mcp": true,
+          "total_cost": 0.0520452,
+          "total_input_tokens": 291016,
+          "total_output_tokens": 13988,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9911222": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.025,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 14.0,
+          "mean_tool_calls": 13.0,
+          "mean_time": 265.1922564506531,
+          "total_time": 272.55708718299866,
+          "used_mcp": true,
+          "total_cost": 0.024986849999999998,
+          "total_input_tokens": 136703,
+          "total_output_tokens": 7469,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3639589": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0105,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 71.04073905944824,
+          "total_time": 78.61737489700317,
+          "used_mcp": true,
+          "total_cost": 0.0105087,
+          "total_input_tokens": 64602,
+          "total_output_tokens": 1364,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-1900704": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 11.0,
+          "mean_tool_calls": 10.0,
+          "mean_time": 198.44073605537415,
+          "total_time": 208.76546812057495,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-8536428": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0193,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 13.0,
+          "mean_tool_calls": 12.0,
+          "mean_time": 123.76141667366028,
+          "total_time": 131.81531858444214,
+          "used_mcp": true,
+          "total_cost": 0.01929765,
+          "total_input_tokens": 96599,
+          "total_output_tokens": 8013,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-2345790": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0245,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 15.0,
+          "mean_tool_calls": 14.0,
+          "mean_time": 132.0422773361206,
+          "total_time": 155.70456171035767,
+          "used_mcp": true,
+          "total_cost": 0.02446425,
+          "total_input_tokens": 132639,
+          "total_output_tokens": 7614,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-7716865": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.2272,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 66.0,
+          "mean_tool_calls": 65.0,
+          "mean_time": 1141.8284969329834,
+          "total_time": 1149.915958404541,
+          "used_mcp": true,
+          "total_cost": 0.22717425,
+          "total_input_tokens": 1400591,
+          "total_output_tokens": 28476,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9137200": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0418,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 25.0,
+          "mean_tool_calls": 24.0,
+          "mean_time": 250.20179891586304,
+          "total_time": 260.20858359336853,
+          "used_mcp": true,
+          "total_cost": 0.0418023,
+          "total_input_tokens": 232546,
+          "total_output_tokens": 11534,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4933686": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0162,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 11.0,
+          "mean_tool_calls": 10.0,
+          "mean_time": 83.4839301109314,
+          "total_time": 92.00645065307617,
+          "used_mcp": true,
+          "total_cost": 0.01615065,
+          "total_input_tokens": 88479,
+          "total_output_tokens": 4798,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9240688": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0116,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 74.6841230392456,
+          "total_time": 81.93688631057739,
+          "used_mcp": true,
+          "total_cost": 0.01157775,
+          "total_input_tokens": 61357,
+          "total_output_tokens": 3957,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-1175539": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0147,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 12.0,
+          "mean_tool_calls": 11.0,
+          "mean_time": 77.51591849327087,
+          "total_time": 85.51105046272278,
+          "used_mcp": true,
+          "total_cost": 0.0147171,
+          "total_input_tokens": 81586,
+          "total_output_tokens": 4132,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4728591": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0046,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 50.433732986450195,
+          "total_time": 59.38970923423767,
+          "used_mcp": true,
+          "total_cost": 0.00455985,
+          "total_input_tokens": 20719,
+          "total_output_tokens": 2420,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-0921079": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0563,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 26.0,
+          "mean_tool_calls": 25.0,
+          "mean_time": 463.7534806728363,
+          "total_time": 470.05455255508423,
+          "used_mcp": true,
+          "total_cost": 0.056329199999999996,
+          "total_input_tokens": 325120,
+          "total_output_tokens": 12602,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4180912": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0122,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 11.0,
+          "mean_tool_calls": 10.0,
+          "mean_time": 69.60237383842468,
+          "total_time": 77.23083925247192,
+          "used_mcp": true,
+          "total_cost": 0.012155999999999998,
+          "total_input_tokens": 63720,
+          "total_output_tokens": 4330,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-2708693": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0189,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 12.0,
+          "mean_tool_calls": 11.0,
+          "mean_time": 380.5383162498474,
+          "total_time": 389.623238325119,
+          "used_mcp": true,
+          "total_cost": 0.0189468,
+          "total_input_tokens": 99500,
+          "total_output_tokens": 6703,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-8807709": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0262,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 11.0,
+          "mean_tool_calls": 10.0,
+          "mean_time": 95.88661885261536,
+          "total_time": 103.22937417030334,
+          "used_mcp": true,
+          "total_cost": 0.02617845,
+          "total_input_tokens": 152711,
+          "total_output_tokens": 5453,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4252248": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 75.1144552230835,
+          "total_time": 81.7947313785553,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-4671827": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0098,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 8.0,
+          "mean_tool_calls": 7.0,
+          "mean_time": 88.52889776229858,
+          "total_time": 97.80257630348206,
+          "used_mcp": true,
+          "total_cost": 0.0097866,
+          "total_input_tokens": 50800,
+          "total_output_tokens": 3611,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-7186268": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0135,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 10.0,
+          "mean_tool_calls": 9.0,
+          "mean_time": 97.02748894691467,
+          "total_time": 104.24250817298889,
+          "used_mcp": true,
+          "total_cost": 0.013503,
+          "total_input_tokens": 67760,
+          "total_output_tokens": 5565,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3849634": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0211,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 15.0,
+          "mean_tool_calls": 14.0,
+          "mean_time": 130.6498031616211,
+          "total_time": 138.96782875061035,
+          "used_mcp": true,
+          "total_cost": 0.021074700000000002,
+          "total_input_tokens": 110222,
+          "total_output_tokens": 7569,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-5136217": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0063,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 48.8873929977417,
+          "total_time": 56.280744314193726,
+          "used_mcp": true,
+          "total_cost": 0.0062526,
+          "total_input_tokens": 32208,
+          "total_output_tokens": 2369,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-1796796": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0106,
+          "mean_accuracy": 0.6666666666666666,
+          "mean_written_accuracy": 0.6666666666666666,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 8.0,
+          "mean_tool_calls": 7.0,
+          "mean_time": 98.92604517936707,
+          "total_time": 106.81740117073059,
+          "used_mcp": true,
+          "total_cost": 0.01057245,
+          "total_input_tokens": 53711,
+          "total_output_tokens": 4193,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4977619": {
+              "success": false,
+              "accuracy": 0.6666666666666666,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0163,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 11.0,
+          "mean_tool_calls": 10.0,
+          "mean_time": 104.83166408538818,
+          "total_time": 112.59645748138428,
+          "used_mcp": true,
+          "total_cost": 0.0163284,
+          "total_input_tokens": 86100,
+          "total_output_tokens": 5689,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-7800694": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0341,
+          "mean_accuracy": 0.3333333333333333,
+          "mean_written_accuracy": 0.5,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 18.0,
+          "mean_tool_calls": 17.0,
+          "mean_time": 196.21239376068115,
+          "total_time": 203.0499632358551,
+          "used_mcp": true,
+          "total_cost": 0.034099199999999996,
+          "total_input_tokens": 193780,
+          "total_output_tokens": 8387,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-6800638": {
+              "success": false,
+              "accuracy": 0.3333333333333333,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0395,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 22.0,
+          "mean_tool_calls": 21.0,
+          "mean_time": 212.44940614700317,
+          "total_time": 219.72771167755127,
+          "used_mcp": true,
+          "total_cost": 0.03950835,
+          "total_input_tokens": 226165,
+          "total_output_tokens": 9306,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-8412128": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.008,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 5.0,
+          "mean_tool_calls": 4.0,
+          "mean_time": 66.00228881835938,
+          "total_time": 73.128338098526,
+          "used_mcp": true,
+          "total_cost": 0.008006699999999999,
+          "total_input_tokens": 36738,
+          "total_output_tokens": 4160,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-6049678": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.06,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.5,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 25.0,
+          "mean_tool_calls": 24.0,
+          "mean_time": 278.19118762016296,
+          "total_time": 286.7554852962494,
+          "used_mcp": true,
+          "total_cost": 0.05998965,
+          "total_input_tokens": 342891,
+          "total_output_tokens": 14260,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-6791130": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0126,
+          "mean_accuracy": 0.6666666666666666,
+          "mean_written_accuracy": 0.6666666666666666,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.75,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.6,
+          "mean_steps": 9.0,
+          "mean_tool_calls": 8.0,
+          "mean_time": 125.48616576194763,
+          "total_time": 134.2130091190338,
+          "used_mcp": true,
+          "total_cost": 0.01260795,
+          "total_input_tokens": 59785,
+          "total_output_tokens": 6067,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-2538444": {
+              "success": false,
+              "accuracy": 0.6666666666666666,
+              "faithfulness": 0.75,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0043,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 41.008233070373535,
+          "total_time": 47.85061025619507,
+          "used_mcp": true,
+          "total_cost": 0.00427575,
+          "total_input_tokens": 21241,
+          "total_output_tokens": 1816,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-4020210": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0078,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.9,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 53.528785943984985,
+          "total_time": 59.72101426124573,
+          "used_mcp": true,
+          "total_cost": 0.0078399,
+          "total_input_tokens": 41522,
+          "total_output_tokens": 2686,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-8514506": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 1.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0067,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 5.0,
+          "mean_tool_calls": 4.0,
+          "mean_time": 53.072038888931274,
+          "total_time": 60.10877227783203,
+          "used_mcp": true,
+          "total_cost": 0.006704099999999999,
+          "total_input_tokens": 32282,
+          "total_output_tokens": 3103,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-5944340": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.007,
+          "mean_accuracy": 0.5,
+          "mean_written_accuracy": 0.5,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.6,
+          "mean_steps": 5.0,
+          "mean_tool_calls": 4.0,
+          "mean_time": 68.82437229156494,
+          "total_time": 75.9945764541626,
+          "used_mcp": true,
+          "total_cost": 0.0070281,
+          "total_input_tokens": 32094,
+          "total_output_tokens": 3690,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9398054": {
+              "success": false,
+              "accuracy": 0.5,
+              "faithfulness": 1.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0051,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 5.0,
+          "mean_tool_calls": 4.0,
+          "mean_time": 46.993404388427734,
+          "total_time": 54.24710488319397,
+          "used_mcp": true,
+          "total_cost": 0.00514335,
+          "total_input_tokens": 23417,
+          "total_output_tokens": 2718,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-7655932": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0047,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 52.44632172584534,
+          "total_time": 61.40181803703308,
+          "used_mcp": true,
+          "total_cost": 0.0046944,
+          "total_input_tokens": 24928,
+          "total_output_tokens": 1592,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-0625246": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0115,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 1.0,
+          "num_suspected_guessing": 0,
+          "mean_adherence": 0.3,
+          "mean_steps": 8.0,
+          "mean_tool_calls": 7.0,
+          "mean_time": 79.8025279045105,
+          "total_time": 86.12735223770142,
+          "used_mcp": true,
+          "total_cost": 0.011531099999999999,
+          "total_input_tokens": 58802,
+          "total_output_tokens": 4518,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-8772484": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 1.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0434,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 18.0,
+          "mean_tool_calls": 17.0,
+          "mean_time": 212.30298161506653,
+          "total_time": 219.65068125724792,
+          "used_mcp": true,
+          "total_cost": 0.04337595,
+          "total_input_tokens": 248733,
+          "total_output_tokens": 10110,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3030670": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0894,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.25,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 38.0,
+          "mean_tool_calls": 37.0,
+          "mean_time": 437.3268973827362,
+          "total_time": 444.3747432231903,
+          "used_mcp": true,
+          "total_cost": 0.08939265,
+          "total_input_tokens": 513195,
+          "total_output_tokens": 20689,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9641396": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0043,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 49.549896240234375,
+          "total_time": 56.45605802536011,
+          "used_mcp": true,
+          "total_cost": 0.004286699999999999,
+          "total_input_tokens": 21106,
+          "total_output_tokens": 1868,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-0732329": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0371,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 1223.6967930793762,
+          "total_time": 1230.6184816360474,
+          "used_mcp": true,
+          "total_cost": 0.037116750000000004,
+          "total_input_tokens": 208929,
+          "total_output_tokens": 9629,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9294029": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0099,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 8.0,
+          "mean_tool_calls": 7.0,
+          "mean_time": 77.65247368812561,
+          "total_time": 84.46611213684082,
+          "used_mcp": true,
+          "total_cost": 0.009905549999999999,
+          "total_input_tokens": 48065,
+          "total_output_tokens": 4493,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-6295990": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0129,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 9.0,
+          "mean_tool_calls": 8.0,
+          "mean_time": 87.78649282455444,
+          "total_time": 94.96832132339478,
+          "used_mcp": true,
+          "total_cost": 0.01290795,
+          "total_input_tokens": 64233,
+          "total_output_tokens": 5455,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9477017": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.008,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 1.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.9,
+          "mean_steps": 7.0,
+          "mean_tool_calls": 6.0,
+          "mean_time": 85.61885261535645,
+          "total_time": 92.26243495941162,
+          "used_mcp": true,
+          "total_cost": 0.008014799999999999,
+          "total_input_tokens": 42476,
+          "total_output_tokens": 2739,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-0201673": {
+              "success": true,
+              "accuracy": 1.0,
+              "faithfulness": 0.0,
+              "adherence": 0.9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0274,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 20.0,
+          "mean_tool_calls": 19.0,
+          "mean_time": 168.94789147377014,
+          "total_time": 178.78677487373352,
+          "used_mcp": true,
+          "total_cost": 0.0274356,
+          "total_input_tokens": 149952,
+          "total_output_tokens": 8238,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-3088870": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0277,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.6,
+          "mean_steps": 18.0,
+          "mean_tool_calls": 17.0,
+          "mean_time": 217.24046277999878,
+          "total_time": 224.06362915039062,
+          "used_mcp": true,
+          "total_cost": 0.027724799999999997,
+          "total_input_tokens": 156856,
+          "total_output_tokens": 6994,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-6003668": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0204,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.4,
+          "mean_steps": 11.0,
+          "mean_tool_calls": 10.0,
+          "mean_time": 113.01342535018921,
+          "total_time": 120.44624280929565,
+          "used_mcp": true,
+          "total_cost": 0.02040945,
+          "total_input_tokens": 110771,
+          "total_output_tokens": 6323,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-8234136": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.009,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_faithfulness": 0.0,
+          "num_suspected_guessing": 1,
+          "mean_adherence": 0.3,
+          "mean_steps": 3.0,
+          "mean_tool_calls": 2.0,
+          "mean_time": 52.158442735672,
+          "total_time": 79.0784330368042,
+          "used_mcp": true,
+          "total_cost": 0.009019349999999999,
+          "total_input_tokens": 55225,
+          "total_output_tokens": 1226,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9660931": {
+              "success": false,
+              "accuracy": 0.0,
+              "faithfulness": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "num_tasks_total": 66,
+  "num_tasks_successful": 66,
+  "num_tasks_failed": 0,
+  "failed_task_indices": []
+}
