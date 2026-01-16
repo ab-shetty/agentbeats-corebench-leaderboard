@@ -1,0 +1,21 @@
+{
+  "participants": {
+    "agent": "gpt-oss-120b-1601260559"
+  },
+  "results": [
+    {
+      "domain": "corebench_hard",
+      "tasks_passed": 2.0,
+      "total_tasks": 3,
+      "total_cost": 0.05,
+      "partial_success_score": 0.3,
+      "total_score": 76.67,
+      "orig_passed": 2.0,
+      "orig_score": 2.3,
+      "new_passed": 0.0,
+      "new_score": 0.0,
+      "orig_cost": 0.05,
+      "new_cost": 0.0
+    }
+  ]
+}
