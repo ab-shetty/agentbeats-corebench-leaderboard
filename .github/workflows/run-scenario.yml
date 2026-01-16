@@ -191,9 +191,10 @@ jobs:
           import json
           import os
           from pathlib import Path
+          from datetime import datetime
           
           # Collect all results
-          all_results = []
+          all_tasks = []
           all_provenances = []
           failed_tasks = []
           
@@ -209,8 +210,9 @@ jobs:
                       task_idx = task_name[5:-8]  # Extract number between 'task-' and '-results'
                       expected_tasks.add(int(task_idx))
           
-          # Collect results from successful tasks
-          for task_dir in sorted(task_results_dir.glob('task-*-results')):
+          # Collect results from successful tasks - maintain order by task index
+          task_dict = {}
+          for task_dir in task_results_dir.glob('task-*-results'):
               results_file = task_dir / 'results.json'
               provenance_file = task_dir / 'provenance.json'
               
@@ -219,7 +221,7 @@ jobs:
               if results_file.exists():
                   with open(results_file, 'r') as f:
                       task_result = json.load(f)
-                      all_results.append(task_result)
+                      task_dict[task_idx] = task_result
               else:
                   failed_tasks.append(task_idx)
                   print(f"Warning: Task {task_idx} has no results.json")
@@ -229,24 +231,100 @@ jobs:
                       task_provenance = json.load(f)
                       all_provenances.append(task_provenance)
           
-          # Create aggregated results
-          aggregated = {
-              "tasks": all_results,
-              "num_tasks_total": len(expected_tasks),
-              "num_tasks_successful": len(all_results),
-              "num_tasks_failed": len(failed_tasks),
-              "failed_task_indices": sorted(failed_tasks)
-          }
+          # Sort tasks by index
+          all_tasks = [task_dict[i] for i in sorted(task_dict.keys())]
           
-          # Add summary statistics if applicable
-          if all_results and isinstance(all_results[0], dict):
-              # Try to extract scores/metrics
-              if 'score' in all_results[0]:
-                  scores = [r.get('score', 0) for r in all_results]
-                  aggregated['summary'] = {
-                      'avg_score': sum(scores) / len(scores) if scores else 0,
-                      'total_tasks': len(all_results)
+          # Generate agent ID
+          model_name = None
+          for task in all_tasks:
+              if 'results' in task and len(task['results']) > 0:
+                  result = task['results'][0]
+                  if result.get('model_used'):
+                      model_name = result['model_used']
+                      break
+          
+          if model_name:
+              # Extract model name after last '/'
+              model_short = model_name.split('/')[-1]
+          else:
+              model_short = "unknown"
+          
+          # Generate timestamp in DDMMYYHHMM format
+          timestamp = datetime.now().strftime('%d%m%y%H%M')
+          agent_id = f"{model_short}-{timestamp}"
+          
+          # Calculate metrics
+          tasks_passed = 0.0
+          total_tasks = len(all_tasks)
+          partial_success_score = 0.0
+          total_cost = 0.0
+          
+          orig_passed = 0.0
+          orig_partial_success = 0.0
+          orig_cost = 0.0
+          
+          new_passed = 0.0
+          new_partial_success = 0.0
+          new_cost = 0.0
+          
+          for idx, task in enumerate(all_tasks):
+              if 'results' in task and len(task['results']) > 0:
+                  result = task['results'][0]
+                  
+                  pass_rate = result.get('pass_rate', 0.0)
+                  mean_adherence = result.get('mean_adherence', 0.0)
+                  cost = result.get('total_cost') or 0.0
+                  
+                  # Overall metrics
+                  tasks_passed += pass_rate
+                  if pass_rate == 0.0:
+                      partial_success_score += mean_adherence
+                  total_cost += cost
+                  
+                  # Split by task index (0-44 vs 45-65)
+                  if idx <= 44:  # First 45 tasks (indices 0-44)
+                      orig_passed += pass_rate
+                      if pass_rate == 0.0:
+                          orig_partial_success += mean_adherence
+                      orig_cost += cost
+                  elif idx <= 65:  # Next 21 tasks (indices 45-65)
+                      new_passed += pass_rate
+                      if pass_rate == 0.0:
+                          new_partial_success += mean_adherence
+                      new_cost += cost
+          
+          # Calculate scores
+          total_score = round((tasks_passed + partial_success_score) / total_tasks * 100, 2) if total_tasks > 0 else 0
+          orig_score = orig_passed + orig_partial_success
+          new_score = new_passed + new_partial_success
+          
+          # Round costs to 2 decimal places
+          total_cost = round(total_cost, 2)
+          orig_cost = round(orig_cost, 2)
+          new_cost = round(new_cost, 2)
+          
+          # Create aggregated results in new format
+          aggregated = {
+              "participants": {
+                  "agent": agent_id
+              },
+              "results": [
+                  {
+                      "domain": "corebench_hard",
+                      "tasks_passed": tasks_passed,
+                      "total_tasks": total_tasks,
+                      "total_cost": total_cost,
+                      "partial_success_score": partial_success_score,
+                      "total_score": total_score,
+                      "orig_passed": orig_passed,
+                      "orig_score": orig_score,
+                      "new_passed": new_passed,
+                      "new_score": new_score,
+                      "orig_cost": orig_cost,
+                      "new_cost": new_cost
                   }
+              ]
+          }
           
           # Write aggregated results
           os.makedirs('output', exist_ok=True)
@@ -258,7 +336,10 @@ jobs:
               with open('output/provenance.json', 'w') as f:
                   json.dump(all_provenances[0], f, indent=2)
           
-          print(f"Aggregated {len(all_results)} successful task results")
+          print(f"Aggregated {len(all_tasks)} task results")
+          print(f"Agent ID: {agent_id}")
+          print(f"Total Score: {total_score}")
+          print(f"Total Cost: ${total_cost}")
           if failed_tasks:
               print(f"Failed tasks: {failed_tasks}")
           EOF
