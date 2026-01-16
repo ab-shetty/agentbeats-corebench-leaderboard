@@ -1,0 +1,113 @@
+{
+  "tasks": [
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": 0.0453,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_adherence": 0.3,
+          "mean_steps": 26.0,
+          "mean_tool_calls": 25.0,
+          "mean_time": 398.9979598522186,
+          "total_time": 405.6593451499939,
+          "used_mcp": true,
+          "total_cost": 0.04528139999999999,
+          "total_input_tokens": 249108,
+          "total_output_tokens": 13192,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-5507257": {
+              "success": false,
+              "accuracy": 0.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 0,
+          "pass_rate": 0.0,
+          "cost_efficiency": null,
+          "mean_accuracy": 0.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 0.0,
+          "mean_restoration_rate": 0.0,
+          "mean_adherence": 0.0,
+          "mean_steps": 4.0,
+          "mean_tool_calls": 3.0,
+          "mean_time": 44.845239877700806,
+          "total_time": 50.41710877418518,
+          "used_mcp": true,
+          "total_cost": null,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "model_used": null,
+          "task_results": {
+            "capsule-3449234": {
+              "success": false,
+              "accuracy": 0.0,
+              "adherence": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "019ba0f7-bc79-7af1-9453-46291175374c"
+      },
+      "results": [
+        {
+          "domain": "corebench_hard",
+          "num_tasks": 1,
+          "num_successful": 1,
+          "pass_rate": 1.0,
+          "cost_efficiency": 0.0104,
+          "mean_accuracy": 1.0,
+          "mean_written_accuracy": 0.0,
+          "mean_vision_accuracy": 1.0,
+          "mean_restoration_rate": 0.0,
+          "mean_adherence": 0.3,
+          "mean_steps": 6.0,
+          "mean_tool_calls": 5.0,
+          "mean_time": 153.72452902793884,
+          "total_time": 163.85818123817444,
+          "used_mcp": true,
+          "total_cost": 0.010404449999999999,
+          "total_input_tokens": 57467,
+          "total_output_tokens": 2974,
+          "model_used": "nebius/openai/gpt-oss-120b",
+          "task_results": {
+            "capsule-9670283": {
+              "success": true,
+              "accuracy": 1.0,
+              "adherence": 0.3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "num_tasks_total": 3,
+  "num_tasks_successful": 3,
+  "num_tasks_failed": 0,
+  "failed_task_indices": []
+}
