@@ -7,7 +7,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # First job: determine how many tasks to run
   setup:
     runs-on: ubuntu-latest
     outputs:
@@ -47,10 +46,8 @@ jobs:
               f.write(f"task_indices={json.dumps(task_indices)}\n")
           EOF
 
-  # Second job: run each task in parallel
   run-task:
     needs: setup
-    # Dynamic runner selection: GPU tasks (0,1,2,3,7,9,19,22) use RunsOn g4dn.xlarge, others use GitHub runners
     runs-on: ${{ contains(fromJson('[0,1,2,3,7,9,19,22]'), matrix.task_index) && format('runs-on,family=g4dn.xlarge,image=ubuntu22-gpu-x64,run-id={0}', github.run_id) || 'ubuntu-latest' }}
     if: github.event.repository.fork == true || github.ref != 'refs/heads/main'
     permissions:
@@ -58,7 +55,7 @@ jobs:
       packages: read
     
     strategy:
-      fail-fast: false  # Continue running other tasks even if one fails
+      fail-fast: false
       matrix:
         task_index: ${{ fromJson(needs.setup.outputs.task_indices) }}
 
@@ -83,18 +80,13 @@ jobs:
           import tomli
           import tomli_w
           
-          # Read the generated a2a-scenario.toml
           with open('a2a-scenario.toml', 'rb') as f:
               data = tomli.load(f)
           
-          # Modify to run only one task using task_index
           if 'config' in data:
-              # Don't set num_tasks - let task_index handle it
               data['config']['task_index'] = ${{ matrix.task_index }}
-              # Remove num_tasks if it exists
               data['config'].pop('num_tasks', None)
           
-          # Write back
           with open('a2a-scenario.toml', 'wb') as f:
               tomli_w.dump(data, f)
           EOF
@@ -104,15 +96,11 @@ jobs:
           if ! docker compose pull; then
             echo ""
             echo "Error: Failed to pull one or more images."
-            echo "Ensure all images are publicly accessible."
-            echo "For ghcr.io images, check package settings at:"
-            echo "  https://github.com/orgs/YOUR_ORG/packages or"
-            echo "  https://github.com/users/YOUR_USER/packages"
             exit 1
           fi
 
-      - name: Create output directory
-        run: mkdir -p output && chmod 777 output
+      - name: Create output and logs directory
+        run: mkdir -p output logs/traces && chmod -R 777 output logs
 
       - name: Export secrets as environment variables
         env:
@@ -154,11 +142,18 @@ jobs:
             output/provenance.json
           retention-days: 1
 
+      - name: Upload task traces as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: task-${{ matrix.task_index }}-traces
+          path: logs/traces/**/*
+          retention-days: 1
+        if: always()  # Upload traces even if task fails
+
       - name: Cleanup
         if: always()
         run: docker compose down -v || true
 
-  # Third job: aggregate results and submit
   aggregate-and-submit:
     needs: [setup, run-task]
     if: always() && needs.setup.result == 'success'
@@ -177,13 +172,19 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install tomli tomli-w pyyaml requests
+        run: pip install tomli tomli-w pyyaml requests cryptography
 
       - name: Download all task results
         uses: actions/download-artifact@v4
         with:
           pattern: task-*-results
           path: task-results
+
+      - name: Download all task traces
+        uses: actions/download-artifact@v4
+        with:
+          pattern: task-*-traces
+          path: task-traces
 
       - name: Aggregate results
         run: |
@@ -193,24 +194,20 @@ jobs:
           from pathlib import Path
           from datetime import datetime
           
-          # Collect all results
           all_tasks = []
           all_provenances = []
           failed_tasks = []
           
           task_results_dir = Path('task-results')
           
-          # Check which tasks we expected
           expected_tasks = set()
           if task_results_dir.exists():
               for task_dir in task_results_dir.glob('task-*-results'):
-                  # Extract task index from directory name
                   task_name = task_dir.name
                   if task_name.startswith('task-') and task_name.endswith('-results'):
-                      task_idx = task_name[5:-8]  # Extract number between 'task-' and '-results'
+                      task_idx = task_name[5:-8]
                       expected_tasks.add(int(task_idx))
           
-          # Collect results from successful tasks - maintain order by task index
           task_dict = {}
           for task_dir in task_results_dir.glob('task-*-results'):
               results_file = task_dir / 'results.json'
@@ -231,10 +228,8 @@ jobs:
                       task_provenance = json.load(f)
                       all_provenances.append(task_provenance)
           
-          # Sort tasks by index
           all_tasks = [task_dict[i] for i in sorted(task_dict.keys())]
           
-          # Generate agent ID
           model_name = None
           for task in all_tasks:
               if 'results' in task and len(task['results']) > 0:
@@ -244,16 +239,13 @@ jobs:
                       break
           
           if model_name:
-              # Extract model name after last '/'
               model_short = model_name.split('/')[-1]
           else:
               model_short = "unknown"
           
-          # Generate timestamp in DDMMYYHHMM format
           timestamp = datetime.now().strftime('%d%m%y%H%M')
           agent_id = f"{model_short}-{timestamp}"
           
-          # Calculate metrics
           tasks_passed = 0.0
           total_tasks = len(all_tasks)
           partial_success_score = 0.0
@@ -275,41 +267,34 @@ jobs:
                   mean_adherence = result.get('mean_adherence', 0.0)
                   cost = result.get('total_cost') or 0.0
                   
-                  # Overall metrics
                   tasks_passed += pass_rate
                   if pass_rate == 0.0:
                       partial_success_score += mean_adherence
                   total_cost += cost
                   
-                  # Split by task index (0-44 vs 45-65)
-                  if idx <= 44:  # First 45 tasks (indices 0-44)
+                  if idx <= 44:
                       orig_passed += pass_rate
                       if pass_rate == 0.0:
                           orig_partial_success += mean_adherence
                       orig_cost += cost
-                  elif idx <= 65:  # Next 21 tasks (indices 45-65)
+                  elif idx <= 65:
                       new_passed += pass_rate
                       if pass_rate == 0.0:
                           new_partial_success += mean_adherence
                       new_cost += cost
           
-          # Calculate scores as percentages
           total_score = round((tasks_passed + partial_success_score) / total_tasks * 100, 2) if total_tasks > 0 else 0
           
-          # Calculate orig_score (tasks 0-44)
-          orig_total = min(total_tasks, 45)  # Count of tasks in orig range
+          orig_total = min(total_tasks, 45)
           orig_score = round((orig_passed + orig_partial_success) / orig_total * 100, 2) if orig_total > 0 else 0
           
-          # Calculate new_score (tasks 45-65)
-          new_total = max(0, min(total_tasks - 45, 21))  # Count of tasks in new range
+          new_total = max(0, min(total_tasks - 45, 21))
           new_score = round((new_passed + new_partial_success) / new_total * 100, 2) if new_total > 0 else 0
           
-          # Round costs to 2 decimal places
           total_cost = round(total_cost, 2)
           orig_cost = round(orig_cost, 2)
           new_cost = round(new_cost, 2)
           
-          # Create aggregated results in new format
           aggregated = {
               "participants": {
                   "agent": agent_id
@@ -332,12 +317,10 @@ jobs:
               ]
           }
           
-          # Write aggregated results
           os.makedirs('output', exist_ok=True)
           with open('output/results.json', 'w') as f:
               json.dump(aggregated, f, indent=2)
           
-          # Merge provenances (use the first one, they should all have same images)
           if all_provenances:
               with open('output/provenance.json', 'w') as f:
                   json.dump(all_provenances[0], f, indent=2)
@@ -350,6 +333,15 @@ jobs:
               print(f"Failed tasks: {failed_tasks}")
           EOF
 
+      - name: Reorganize traces for encryption
+        run: |
+          mkdir -p logs/traces
+          # Copy all trace files from downloaded artifacts into a single directory structure
+          find task-traces -name "*.json" -exec cp {} logs/traces/ \;
+
+      - name: Collect and encrypt traces
+        run: python encrypt_traces.py --traces-dir logs/traces --output output/traces.encrypted.tar.gz
+
       - name: Generate submission metadata
         id: metadata
         run: |
@@ -358,6 +350,7 @@ jobs:
           UNIQUE_NAME="${USERNAME}-${TIMESTAMP}"
           echo "unique_name=$UNIQUE_NAME" >> $GITHUB_OUTPUT
           echo "branch_name=submission-${UNIQUE_NAME}" >> $GITHUB_OUTPUT
+          echo "tag_name=submission-${UNIQUE_NAME}" >> $GITHUB_OUTPUT
 
       - name: Copy files to submission directory
         run: |
@@ -391,9 +384,38 @@ jobs:
           git push origin ${{ steps.metadata.outputs.branch_name }}
           echo "::notice title=Submission Branch Created::Your results are ready for submission on branch: ${{ steps.metadata.outputs.branch_name }}"
 
+      - name: Create GitHub Release with encrypted traces
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.metadata.outputs.tag_name }}
+          name: "Submission: ${{ steps.metadata.outputs.unique_name }}"
+          body: |
+            ## Benchmark Submission
+            
+            **Submission ID:** ${{ steps.metadata.outputs.unique_name }}
+            **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            
+            ### Encrypted Traces
+            
+            The encrypted traces are available for download below. 
+            
+            **Decryption password:** `reproducibility`
+            
+            See `DECRYPTION_INSTRUCTIONS.json` for details on how to decrypt.
+          files: |
+            output/traces.encrypted.tar.gz
+            output/DECRYPTION_INSTRUCTIONS.json
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Output PR link
         run: |
           echo "### Submit your results" >> $GITHUB_STEP_SUMMARY
           echo "[Click here to open a pull request](https://github.com/${{ steps.target.outputs.repo }}/compare/main...${{ github.repository_owner }}:${{ github.event.repository.name }}:${{ steps.metadata.outputs.branch_name }}?expand=1)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "⚠️ When creating the PR, UNCHECK 'Allow edits and access to secrets by maintainers' to protect your secrets." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Encrypted Traces Available" >> $GITHUB_STEP_SUMMARY
+          echo "Your encrypted traces have been uploaded to [GitHub Releases](https://github.com/${{ github.repository }}/releases/tag/${{ steps.metadata.outputs.tag_name }})" >> $GITHUB_STEP_SUMMARY

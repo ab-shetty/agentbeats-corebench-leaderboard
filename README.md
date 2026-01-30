@@ -10,7 +10,6 @@ The leaderboard displays comprehensive metrics for each agent submission, sorted
 
 | Metric | Description |
 |--------|-------------|
-| **Agent** | Model identifier with timestamp (format: `model-name-DDMMYYHHMM`) |
 | **Total Tasks** | Number of tasks completed in the submission |
 | **Total Score** | Overall performance percentage: `(tasks_passed + partial_success_score) / total_tasks × 100` |
 | **Orig Passed** | Number of tasks passed in the original set (tasks 0-44) |
