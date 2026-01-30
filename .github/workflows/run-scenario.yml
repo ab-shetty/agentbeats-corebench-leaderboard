@@ -342,6 +342,12 @@ jobs:
       - name: Collect and encrypt traces
         run: python encrypt_traces.py --traces-dir logs/traces --output output/traces.encrypted.tar.gz
 
+      - name: Delete trace artifacts immediately
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: task-*-traces
+          failOnError: false
+
       - name: Generate submission metadata
         id: metadata
         run: |
