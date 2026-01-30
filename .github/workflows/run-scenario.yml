@@ -161,6 +161,7 @@ jobs:
     permissions:
       contents: write
       packages: read
+      actions: write
 
     steps:
       - name: Checkout
