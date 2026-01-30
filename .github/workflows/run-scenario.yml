@@ -340,7 +340,7 @@ jobs:
           find task-traces -name "*.json" -exec cp {} logs/traces/ \;
 
       - name: Collect and encrypt traces
-        run: python encrypt_traces.py --traces-dir logs/traces --output output/traces.encrypted.tar.gz
+        run: python encrypt_traces.py --traces-dir task-traces --output output/traces.encrypted.tar.gz
 
       - name: Delete trace artifacts immediately
         uses: geekyeggo/delete-artifact@v2

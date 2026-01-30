@@ -5,6 +5,7 @@ import argparse
 import json
 import tarfile
 import io
+import re
 from pathlib import Path
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
@@ -27,29 +28,34 @@ def derive_key(password: str, salt: bytes) -> bytes:
 
 
 def collect_traces(traces_dir: Path) -> list:
-    """Collect all run_summary_*.json files and sort by task number."""
+    """Collect all .jsonl trace files and sort by task number."""
     trace_files = []
     
-    # Find all run_summary_*.json files
-    for trace_file in traces_dir.rglob("run_summary_*.json"):
-        # Extract run_id from filename: run_summary_{run_id}.json
-        filename = trace_file.name
-        if filename.startswith("run_summary_") and filename.endswith(".json"):
-            run_id = filename[len("run_summary_"):-len(".json")]
-            
-            with open(trace_file, 'r') as f:
-                data = json.load(f)
-                
-            # Extract task number from the data (assuming it's in the JSON)
-            # Adjust this based on your actual trace structure
-            task_num = data.get('task_index', data.get('task_number', 999999))
-            
-            trace_files.append({
-                'task_num': task_num,
-                'run_id': run_id,
-                'data': data,
-                'path': trace_file
-            })
+    # Pattern to extract task number from directory name: task-N-traces
+    task_pattern = re.compile(r'task-(\d+)-traces')
+    
+    # Find all .jsonl files in task-*-traces directories
+    for trace_file in traces_dir.rglob("*.jsonl"):
+        # Get the parent directories to find task number
+        parts = trace_file.parts
+        
+        # Find the task-N-traces directory in the path
+        task_num = None
+        for part in parts:
+            match = task_pattern.match(part)
+            if match:
+                task_num = int(match.group(1))
+                break
+        
+        if task_num is None:
+            print(f"Warning: Could not extract task number from path: {trace_file}")
+            continue
+        
+        trace_files.append({
+            'task_num': task_num,
+            'path': trace_file,
+            'filename': trace_file.name
+        })
     
     # Sort by task number
     trace_files.sort(key=lambda x: x['task_num'])
@@ -58,17 +64,22 @@ def collect_traces(traces_dir: Path) -> list:
 
 
 def create_combined_jsonl(trace_files: list) -> str:
-    """Create JSONL content from sorted trace files."""
-    lines = []
+    """Concatenate JSONL files in task order."""
+    combined_lines = []
+    
     for trace in trace_files:
-        lines.append(json.dumps(trace['data']))
-    return '\n'.join(lines)
+        print(f"  Adding task {trace['task_num']}: {trace['filename']}")
+        with open(trace['path'], 'r') as f:
+            content = f.read().strip()
+            if content:
+                combined_lines.append(content)
+    
+    return '\n'.join(combined_lines)
 
 
 def encrypt_content(content: str, password: str) -> bytes:
     """Encrypt content using password-based encryption."""
-    # Use a fixed salt for reproducibility (so the same password always works)
-    # In production, you might want a random salt stored with the file
+    # Use a fixed salt for reproducibility
     salt = b'agentbeats_trace_encryption_salt_v1'
     
     key = derive_key(password, salt)
@@ -95,7 +106,7 @@ def create_encrypted_archive(jsonl_content: str, password: str, output_path: Pat
     metadata = {
         'encryption': 'Fernet (AES-128)',
         'password': 'reproducibility',
-        'format': 'JSONL (one trace per line)',
+        'format': 'JSONL (one trace per line, concatenated from all tasks in order)',
         'decryption_example': '''
 # To decrypt:
 import tarfile
@@ -117,7 +128,12 @@ with tarfile.open('traces.encrypted.tar.gz', 'r:gz') as tar:
     encrypted_data = encrypted_file.read()
     decrypted = fernet.decrypt(encrypted_data)
     traces_jsonl = decrypted.decode('utf-8')
-    print(traces_jsonl)
+    
+    # Each line is a JSON object
+    for line in traces_jsonl.split('\\n'):
+        if line.strip():
+            trace = json.loads(line)
+            print(trace)
 '''
     }
     
@@ -128,7 +144,7 @@ with tarfile.open('traces.encrypted.tar.gz', 'r:gz') as tar:
 
 def main():
     parser = argparse.ArgumentParser(description='Collect, combine, and encrypt trace files')
-    parser.add_argument('--traces-dir', type=Path, required=True, help='Directory containing trace subdirectories')
+    parser.add_argument('--traces-dir', type=Path, required=True, help='Directory containing task-*-traces subdirectories')
     parser.add_argument('--output', type=Path, required=True, help='Output path for encrypted archive')
     parser.add_argument('--password', type=str, default='reproducibility', help='Encryption password')
     
@@ -144,6 +160,10 @@ def main():
     
     if not trace_files:
         print("Warning: No trace files found")
+        # Create empty encrypted file
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        create_encrypted_archive("", args.password, args.output)
+        print(f"✓ Created empty encrypted archive: {args.output}")
         return 0
     
     print(f"Found {len(trace_files)} trace files")
@@ -157,8 +177,9 @@ def main():
     args.output.parent.mkdir(parents=True, exist_ok=True)
     create_encrypted_archive(jsonl_content, args.password, args.output)
     
+    size_mb = args.output.stat().st_size / (1024*1024)
     print(f"✓ Created encrypted archive: {args.output}")
-    print(f"✓ Size: {args.output.stat().st_size / (1024*1024):.2f} MB")
+    print(f"✓ Size: {size_mb:.2f} MB")
     print(f"✓ Decryption instructions: {args.output.parent / 'DECRYPTION_INSTRUCTIONS.json'}")
     
     return 0
