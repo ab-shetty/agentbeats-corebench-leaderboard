@@ -343,10 +343,25 @@ jobs:
         run: python encrypt_traces.py --traces-dir task-traces --output output/traces.encrypted.tar.gz
 
       - name: Delete trace artifacts immediately
-        uses: geekyeggo/delete-artifact@v2
+        uses: actions/github-script@v7
         with:
-          name: task-*-traces
-          failOnError: false
+          script: |
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.runId,
+            });
+            
+            for (const artifact of artifacts.data.artifacts) {
+              if (artifact.name.startsWith('task-') && artifact.name.endsWith('-traces')) {
+                console.log(`Deleting artifact: ${artifact.name}`);
+                await github.rest.actions.deleteArtifact({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  artifact_id: artifact.id,
+                });
+              }
+            }
 
       - name: Generate submission metadata
         id: metadata
