@@ -48,7 +48,7 @@ jobs:
 
   run-task:
     needs: setup
-    runs-on: ${{ contains(fromJson('[0,1,2,3,7,9,19,22]'), matrix.task_index) && format('runs-on,family=g4dn.xlarge,image=ubuntu22-gpu-x64,run-id={0}', github.run_id) || 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     if: github.event.repository.fork == true || github.ref != 'refs/heads/main'
     permissions:
       contents: write
