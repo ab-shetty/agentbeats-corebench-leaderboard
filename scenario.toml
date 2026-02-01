@@ -1,16 +1,16 @@
 [green_agent]
-agentbeats_id = ""
+agentbeats_id = "019ba0f2-48da-7cc0-8294-75e07fa28a12"
 env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
 name = "agent"
 env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", NEBIUS_API_KEY = "${NEBIUS_API_KEY}"}
 
 [config]
 domain = "corebench_hard"
-num_tasks = 3
+num_tasks = 10
 use_mcp = true
 mcp_server_command = ["uv", "run", "mcp", "run", "scenarios/corebench/mcp_server.py"]
-keep_traces = true 
+keep_traces = false 
 use_cache = false
