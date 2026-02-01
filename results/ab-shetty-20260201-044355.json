@@ -1,0 +1,21 @@
+{
+  "participants": {
+    "agent": "Qwen3-Coder-30B-A3B-Instruct-0102260443"
+  },
+  "results": [
+    {
+      "domain": "corebench_hard",
+      "tasks_passed": 14.0,
+      "total_tasks": 72,
+      "total_cost": 3.74,
+      "partial_success_score": 45.230000000000004,
+      "total_score": 82.26,
+      "orig_passed": 6.0,
+      "orig_score": 80.16,
+      "new_passed": 8.0,
+      "new_score": 88.86,
+      "orig_cost": 2.41,
+      "new_cost": 0.95
+    }
+  ]
+}
