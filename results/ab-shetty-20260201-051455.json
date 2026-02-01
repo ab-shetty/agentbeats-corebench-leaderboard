@@ -1,0 +1,31 @@
+{
+  "participants": {
+    "agent": "019bc3ff-fb94-77f0-ae1d-0f6f4ccaa619"
+  },
+  "results": [
+    {
+      "domain": "corebench_hard",
+      "tasks_passed": 0.0,
+      "total_tasks": 2,
+      "total_cost": 0.16,
+      "adherence_score": 1.65,
+      "methodology_score": 1.8,
+      "partial_success_score": 1.21,
+      "total_score": 60.38,
+      "original_tasks": 2,
+      "orig_passed": 0.0,
+      "orig_adherence_score": 1.65,
+      "orig_methodology_score": 1.8,
+      "orig_partial_success": 1.21,
+      "orig_score": 60.38,
+      "orig_cost": 0.16,
+      "new_tasks": 0,
+      "new_passed": 0.0,
+      "new_adherence_score": 0.0,
+      "new_methodology_score": 0.0,
+      "new_partial_success": 0.0,
+      "new_score": 0,
+      "new_cost": 0.0
+    }
+  ]
+}
