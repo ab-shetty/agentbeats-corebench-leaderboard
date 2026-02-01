@@ -250,14 +250,20 @@ jobs:
           tasks_passed = 0.0
           total_tasks = len(all_tasks)
           partial_success_score = 0.0
+          adherence_score = 0.0
+          methodology_score = 0.0
           total_cost = 0.0
           
           orig_passed = 0.0
           orig_partial_success = 0.0
+          orig_adherence_score = 0.0
+          orig_methodology_score = 0.0
           orig_cost = 0.0
           
           new_passed = 0.0
           new_partial_success = 0.0
+          new_adherence_score = 0.0
+          new_methodology_score = 0.0
           new_cost = 0.0
           
           for idx, task in enumerate(all_tasks):
@@ -266,31 +272,47 @@ jobs:
                   
                   pass_rate = result.get('pass_rate', 0.0)
                   mean_adherence = result.get('mean_adherence', 0.0)
+                  mean_methodology = result.get('mean_methodology_score', 0.0)
                   cost = result.get('total_cost') or 0.0
                   
                   tasks_passed += pass_rate
                   if pass_rate == 0.0:
-                      partial_success_score += mean_adherence
+                      adherence_score += mean_adherence
+                      methodology_score += mean_methodology
+                      partial_success_score += ((mean_adherence + mean_methodology) / 2) * 0.7
                   total_cost += cost
                   
                   if idx <= 44:
                       orig_passed += pass_rate
                       if pass_rate == 0.0:
-                          orig_partial_success += mean_adherence
+                          orig_adherence_score += mean_adherence
+                          orig_methodology_score += mean_methodology
+                          orig_partial_success += ((mean_adherence + mean_methodology) / 2) * 0.7
                       orig_cost += cost
-                  elif idx <= 65:
+                  elif idx <= 71:
                       new_passed += pass_rate
                       if pass_rate == 0.0:
-                          new_partial_success += mean_adherence
+                          new_adherence_score += mean_adherence
+                          new_methodology_score += mean_methodology
+                          new_partial_success += ((mean_adherence + mean_methodology) / 2) * 0.7
                       new_cost += cost
           
           total_score = round((tasks_passed + partial_success_score) / total_tasks * 100, 2) if total_tasks > 0 else 0
+          adherence_score = round(adherence_score, 2)
+          methodology_score = round(methodology_score, 2)
+          partial_success_score = round(partial_success_score, 2)
           
-          orig_total = min(total_tasks, 45)
-          orig_score = round((orig_passed + orig_partial_success) / orig_total * 100, 2) if orig_total > 0 else 0
+          original_tasks = min(total_tasks, 45)
+          orig_score = round((orig_passed + orig_partial_success) / original_tasks * 100, 2) if original_tasks > 0 else 0
+          orig_adherence_score = round(orig_adherence_score, 2)
+          orig_methodology_score = round(orig_methodology_score, 2)
+          orig_partial_success = round(orig_partial_success, 2)
           
-          new_total = max(0, min(total_tasks - 45, 21))
-          new_score = round((new_passed + new_partial_success) / new_total * 100, 2) if new_total > 0 else 0
+          new_tasks = max(0, min(total_tasks - 45, 27))
+          new_score = round((new_passed + new_partial_success) / new_tasks * 100, 2) if new_tasks > 0 else 0
+          new_adherence_score = round(new_adherence_score, 2)
+          new_methodology_score = round(new_methodology_score, 2)
+          new_partial_success = round(new_partial_success, 2)
           
           total_cost = round(total_cost, 2)
           orig_cost = round(orig_cost, 2)
@@ -320,13 +342,23 @@ jobs:
                       "tasks_passed": tasks_passed,
                       "total_tasks": total_tasks,
                       "total_cost": total_cost,
+                      "adherence_score": adherence_score,
+                      "methodology_score": methodology_score,
                       "partial_success_score": partial_success_score,
                       "total_score": total_score,
+                      "original_tasks": original_tasks,
                       "orig_passed": orig_passed,
+                      "orig_adherence_score": orig_adherence_score,
+                      "orig_methodology_score": orig_methodology_score,
+                      "orig_partial_success": orig_partial_success,
                       "orig_score": orig_score,
-                      "new_passed": new_passed,
-                      "new_score": new_score,
                       "orig_cost": orig_cost,
+                      "new_tasks": new_tasks,
+                      "new_passed": new_passed,
+                      "new_adherence_score": new_adherence_score,
+                      "new_methodology_score": new_methodology_score,
+                      "new_partial_success": new_partial_success,
+                      "new_score": new_score,
                       "new_cost": new_cost
                   }
               ]
