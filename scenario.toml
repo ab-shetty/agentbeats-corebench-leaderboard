@@ -9,7 +9,7 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", NEBIUS_API_KEY = "${NEBIUS_API_KEY}
 
 [config]
 domain = "corebench_hard"
-num_tasks = 3
+num_tasks = 3 # Use 72 for all tasks
 use_mcp = true
 mcp_server_command = ["uv", "run", "mcp", "run", "scenarios/corebench/mcp_server.py"]
 keep_traces = true 

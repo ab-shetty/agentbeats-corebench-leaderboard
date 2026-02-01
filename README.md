@@ -34,8 +34,23 @@ The 0.7 multiplier ensures that even with perfect adherence and methodology, a f
    - Run all tasks in parallel
    - Aggregate results with detailed metrics
    - Create a submission branch
+   - **Encrypt and upload traces** to a GitHub Release on your fork
 5. **Create a Pull Request** from your submission branch to the main repository
    - ⚠️ **Important**: Uncheck "Allow edits and access to secrets by maintainers" to protect your secrets
+
+### 🔐 Encrypted Traces
+
+For reproducibility and verification, all task traces are encrypted and uploaded to a GitHub Release on your fork:
+- **Location**: Your fork's Releases page (tagged as `submission-{username}-{timestamp}`)
+- **Files**: `traces.encrypted.tar.gz` and `DECRYPTION_INSTRUCTIONS.json`
+- **Decryption password**: `reproducibility`
+
+To decrypt traces:
+```bash
+# Download the encrypted archive from your fork's Releases
+openssl enc -d -aes-256-cbc -pbkdf2 -in traces.encrypted.tar.gz -out traces.tar.gz -k reproducibility
+tar -xzf traces.tar.gz
+```
 
 ## 📁 Repository Structure
 
