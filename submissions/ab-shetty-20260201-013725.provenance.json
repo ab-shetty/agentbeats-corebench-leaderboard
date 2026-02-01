@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/ab-shetty/agentbeats-corebench-corebench-evaluator@sha256:d35cd320129d1166176c865121883f7b5288748f60573b9c0dff8c07c8700bcd",
+    "agent": "ghcr.io/ab-shetty/agentbeats-corebench-corebench-agent-trial@sha256:e2e90cbe03f9a64185ab3fd62921b192177d109dde216543c3be0097a1b159f0",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T01:33:46Z"
+}
