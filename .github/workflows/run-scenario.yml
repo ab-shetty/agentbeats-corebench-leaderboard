@@ -296,10 +296,24 @@ jobs:
           orig_cost = round(orig_cost, 2)
           new_cost = round(new_cost, 2)
           
+          # Read scenario.toml to get participant agentbeats_id
+          with open('scenario.toml', 'rb') as f:
+              scenario = tomli.load(f)
+
+          # Build participants dict from scenario using agentbeats_id
+          participants_dict = {}
+          for participant in scenario.get('participants', []):
+              role = participant.get('name')
+              agentbeats_id = participant.get('agentbeats_id', '')
+              if role and agentbeats_id:
+                  participants_dict[role] = agentbeats_id
+
+          # If no participants found with agentbeats_id, fallback to generated agent_id
+          if not participants_dict:
+              participants_dict = {"agent": agent_id}
+
           aggregated = {
-              "participants": {
-                  "agent": agent_id
-              },
+              "participants": participants_dict,
               "results": [
                   {
                       "domain": "corebench_hard",
